@@ -1,0 +1,34 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-physical-inventory-document-reads/SAP_API_Caller/caller.go#L58",
+	"function": "sap-api-integrations-physical-inventory-document-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"FiscalYear": "2017",
+			"PhysicalInventoryDocument": "100000000",
+			"InventoryTransactionType": "IB",
+			"Plant": "1710",
+			"StorageLocation": "171A",
+			"InventorySpecialStockType": "",
+			"DocumentDate": "/Date(1498176000000)/",
+			"PhysInventoryPlannedCountDate": "/Date(1498176000000)/",
+			"PhysicalInventoryLastCountDate": "/Date(1498176000000)/",
+			"PostingDate": "",
+			"FiscalPeriod": "6",
+			"PostingIsBlockedForPhysInvtry": true,
+			"PhysicalInventoryCountStatus": "X",
+			"PhysInvtryAdjustmentPostingSts": "X",
+			"PhysInvtryDeletionStatus": "X",
+			"PhysInvtryDocHasQtySnapshot": false,
+			"PhysicalInventoryGroupType": "",
+			"PhysicalInventoryGroup": "",
+			"PhysicalInventoryNumber": "",
+			"PhysInventoryReferenceNumber": "",
+			"PhysicalInventoryDocumentDesc": "",
+			"PhysicalInventoryType": "",
+			"LastChangeDateTime": "/Date(1490961600000+0000)/",
+			"to_PhysicalInventoryDocumentItem": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_PHYSICAL_INVENTORY_DOC_SRV/A_PhysInventoryDocHeader(FiscalYear='2017',PhysicalInventoryDocument='100000000')/to_PhysicalInventoryDocumentItem"
+		}
+	],
+	"time": "2022-01-02T21:30:35.370626+09:00"
+}
