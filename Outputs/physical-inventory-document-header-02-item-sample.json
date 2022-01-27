@@ -18,9 +18,9 @@
 			"Supplier": "",
 			"Customer": "",
 			"WBSElement": "",
-			"LastChangeDate": "/Date(1498521600000)/",
+			"LastChangeDate": "2017-06-27T09:00:00+09:00",
 			"CountedByUser": "CB9980000384",
-			"PhysicalInventoryLastCountDate": "/Date(1498176000000)/",
+			"PhysicalInventoryLastCountDate": "2017-06-23T09:00:00+09:00",
 			"AdjustmentPostingMadeByUser": "",
 			"PostingDate": "",
 			"PhysicalInventoryItemIsCounted": true,
@@ -43,8 +43,8 @@
 			"UnitOfEntry": "PC",
 			"QuantityInUnitOfEntry": "10",
 			"Currency": "USD",
-			"LastChangeDateTime": "/Date(1490961600000+0000)/"
+			"LastChangeDateTime": ""
 		}
 	],
-	"time": "2022-01-02T21:30:36.379863+09:00"
+	"time": "2022-01-27T21:50:49+09:00"
 }

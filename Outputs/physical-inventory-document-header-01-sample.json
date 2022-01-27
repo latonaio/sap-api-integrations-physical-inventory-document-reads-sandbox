@@ -10,9 +10,9 @@
 			"Plant": "1710",
 			"StorageLocation": "171A",
 			"InventorySpecialStockType": "",
-			"DocumentDate": "/Date(1498176000000)/",
-			"PhysInventoryPlannedCountDate": "/Date(1498176000000)/",
-			"PhysicalInventoryLastCountDate": "/Date(1498176000000)/",
+			"DocumentDate": "2017-06-23T09:00:00+09:00",
+			"PhysInventoryPlannedCountDate": "2017-06-23T09:00:00+09:00",
+			"PhysicalInventoryLastCountDate": "2017-06-23T09:00:00+09:00",
 			"PostingDate": "",
 			"FiscalPeriod": "6",
 			"PostingIsBlockedForPhysInvtry": true,
@@ -26,9 +26,9 @@
 			"PhysInventoryReferenceNumber": "",
 			"PhysicalInventoryDocumentDesc": "",
 			"PhysicalInventoryType": "",
-			"LastChangeDateTime": "/Date(1490961600000+0000)/",
+			"LastChangeDateTime": "",
 			"to_PhysicalInventoryDocumentItem": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_PHYSICAL_INVENTORY_DOC_SRV/A_PhysInventoryDocHeader(FiscalYear='2017',PhysicalInventoryDocument='100000000')/to_PhysicalInventoryDocumentItem"
 		}
 	],
-	"time": "2022-01-02T21:30:35.370626+09:00"
+	"time": "2022-01-27T21:50:48+09:00"
 }

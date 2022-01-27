@@ -97,9 +97,9 @@ func (c *SAPAPICaller) AsyncGetPhysicalInventoryDocument(fiscalYear, physicalInv
 }
 ```
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。   
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。   
 以下の sample.json の例は、SAP 実地棚卸伝票 の ヘッダデータ が取得された結果の JSON の例です。  
-以下の項目のうち、"FiscalYear" ～ "to_PhysicalInventoryDocumentItem" は、/SAP_API_Output_Formatter/type.go 内 の type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。    
+以下の項目のうち、"FiscalYear" ～ "to_PhysicalInventoryDocumentItem" は、/SAP_API_Output_Formatter/type.go 内 の type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。    
 
 ```
 {
@@ -114,9 +114,9 @@ func (c *SAPAPICaller) AsyncGetPhysicalInventoryDocument(fiscalYear, physicalInv
 			"Plant": "1710",
 			"StorageLocation": "171A",
 			"InventorySpecialStockType": "",
-			"DocumentDate": "/Date(1498176000000)/",
-			"PhysInventoryPlannedCountDate": "/Date(1498176000000)/",
-			"PhysicalInventoryLastCountDate": "/Date(1498176000000)/",
+			"DocumentDate": "2017-06-23T09:00:00+09:00",
+			"PhysInventoryPlannedCountDate": "2017-06-23T09:00:00+09:00",
+			"PhysicalInventoryLastCountDate": "2017-06-23T09:00:00+09:00",
 			"PostingDate": "",
 			"FiscalPeriod": "6",
 			"PostingIsBlockedForPhysInvtry": true,
@@ -130,11 +130,12 @@ func (c *SAPAPICaller) AsyncGetPhysicalInventoryDocument(fiscalYear, physicalInv
 			"PhysInventoryReferenceNumber": "",
 			"PhysicalInventoryDocumentDesc": "",
 			"PhysicalInventoryType": "",
-			"LastChangeDateTime": "/Date(1490961600000+0000)/",
+			"LastChangeDateTime": "",
 			"to_PhysicalInventoryDocumentItem": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_PHYSICAL_INVENTORY_DOC_SRV/A_PhysInventoryDocHeader(FiscalYear='2017',PhysicalInventoryDocument='100000000')/to_PhysicalInventoryDocumentItem"
 		}
 	],
-	"time": "2022-01-02T21:30:35.370626+09:00"
+	"time": "2022-01-27T21:50:48+09:00"
 }
+
 ```
 
